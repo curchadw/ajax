@@ -1,3 +1,3 @@
-$.ajax('Ajx.txt', function(data){
+$.ajax('Ajx.txt').done(function(data){
    alert(data);
 });
